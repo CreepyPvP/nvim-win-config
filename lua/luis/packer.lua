@@ -43,7 +43,11 @@ return require('packer').startup(function(use)
         config = function()
             require('Comment').setup()
         end
-    }
+    },
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end},
 
+    use( 'theprimeagen/vim-be-good' )
 }
 end)
