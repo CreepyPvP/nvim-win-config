@@ -38,16 +38,9 @@ return require('packer').startup(function(use)
 		{'L3MON4D3/LuaSnip'},     -- Required
 	},
 
-    use {
-        'numToStr/Comment.nvim',
-        config = function()
-            require('Comment').setup()
-        end
-    },
+    use { 'numToStr/Comment.nvim' },
     use {"akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup()
     end},
-
-    use( 'theprimeagen/vim-be-good' )
 }
 end)
