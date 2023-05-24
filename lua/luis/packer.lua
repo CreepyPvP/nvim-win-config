@@ -40,6 +40,8 @@ return require('packer').startup(function(use)
 	},
 
     use { 'numToStr/Comment.nvim' },
-    use 'folke/tokyonight.nvim',
+    -- use 'folke/tokyonight.nvim',
+    
+    use { "catppuccin/nvim", as = "catppuccin" }
 }
 end)
