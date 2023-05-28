@@ -15,9 +15,15 @@ return require('packer').startup(function(use)
 	use( 'nvim-treesitter/nvim-treesitter' , {run = ':TSUpdate'})
 	use( 'nvim-treesitter/playground' )
 	use( 'theprimeagen/harpoon' )
+    use( 'theprimeagen/git-worktree.nvim')
 	use( 'mbbill/undotree' )
 	use( 'tpope/vim-fugitive' )
     use( 'sbdchd/neoformat' )
+
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
@@ -40,8 +46,9 @@ return require('packer').startup(function(use)
 	},
 
     use { 'numToStr/Comment.nvim' },
-    -- use 'folke/tokyonight.nvim',
     
     use { "catppuccin/nvim", as = "catppuccin" }
+
+
 }
 end)
