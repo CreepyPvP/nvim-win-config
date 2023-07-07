@@ -44,11 +44,9 @@ return require('packer').startup(function(use)
 		{'hrsh7th/cmp-nvim-lsp'}, -- Required
 		{'L3MON4D3/LuaSnip'},     -- Required
 	},
-
     use { 'numToStr/Comment.nvim' },
-    
-    use { "catppuccin/nvim", as = "catppuccin" }
+    use { "catppuccin/nvim", as = "catppuccin" },
 
-
+    use { 'andweeb/presence.nvim' },
 }
 end)
