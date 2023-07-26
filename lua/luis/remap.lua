@@ -35,7 +35,7 @@ vim.keymap.set("t", "<C-d>", "<ESC>");
 
 -- splits --
 vim.keymap.set({ "n", "i" }, "<C-m>", "<cmd>vsplit<CR>");
-vim.keymap.set({ "n", "i" }, "<C-h>", "<cmd>split<CR>");
+vim.keymap.set({ "n", "i" }, "<C-k>", "<cmd>split<CR>");
 
 -- window movement --
 vim.keymap.set({ "n", "i", "t" }, "<A-h>", "<C-w>h");
