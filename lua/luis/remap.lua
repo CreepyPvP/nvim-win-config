@@ -21,9 +21,15 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+
+vim.keymap.set({ "n", "t", "i" }, "<C-w>", "<cmd>q<CR>");
+
 -- tabs --
 vim.keymap.set({ "n", "i", "t" }, "<A-p>", "<cmd>tabnext<CR>")
 vim.keymap.set({ "n", "i", "t" }, "<A-n>", "<cmd>tabprevious<CR>")
 vim.keymap.set({ "n", "i", "t" }, "<C-n>", "<cmd>tabnew<CR>")
-vim.keymap.set({ "n", "i", "t" }, "<C-n>", "<cmd>tabnew<CR>")
 vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>tabnew<CR><cmd>term<CR>a")
+
+-- splits --
+-- vim.keymap.set({ "n", "i", "t" }, "<C-m>", "<cmd>vsplit<CR>");
+-- vim.keymap.set({ "n", "i", "t" }, "<C-h>", "<cmd>split<CR>");
