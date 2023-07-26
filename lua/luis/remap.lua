@@ -30,6 +30,15 @@ vim.keymap.set({ "n", "i", "t" }, "<A-n>", "<cmd>tabprevious<CR>")
 vim.keymap.set({ "n", "i", "t" }, "<C-n>", "<cmd>tabnew<CR>")
 vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>tabnew<CR><cmd>term<CR>a")
 
+-- term --
+vim.keymap.set("t", "<C-d>", "<ESC>");
+
 -- splits --
--- vim.keymap.set({ "n", "i", "t" }, "<C-m>", "<cmd>vsplit<CR>");
--- vim.keymap.set({ "n", "i", "t" }, "<C-h>", "<cmd>split<CR>");
+vim.keymap.set({ "n", "i" }, "<C-m>", "<cmd>vsplit<CR>");
+vim.keymap.set({ "n", "i" }, "<C-h>", "<cmd>split<CR>");
+
+-- window movement --
+vim.keymap.set({ "n", "i", "t" }, "<A-h>", "<C-w>h");
+vim.keymap.set({ "n", "i", "t" }, "<A-j>", "<C-w>j");
+vim.keymap.set({ "n", "i", "t" }, "<A-k>", "<C-w>k");
+vim.keymap.set({ "n", "i", "t" }, "<A-l>", "<C-w>l");
