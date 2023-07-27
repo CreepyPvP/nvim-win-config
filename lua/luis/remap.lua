@@ -34,8 +34,8 @@ vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>tabnew<CR><cmd>term<CR>a")
 vim.keymap.set("t", "<C-d>", "<ESC>");
 
 -- splits --
-vim.keymap.set({ "n", "i" }, "<leader>v", "<cmd>vsplit<CR>");
-vim.keymap.set({ "n", "i" }, "<leader>h", "<cmd>split<CR>");
+vim.keymap.set("n", "<leader>v", "<cmd>vsplit<CR>");
+vim.keymap.set("n", "<leader>h", "<cmd>split<CR>");
 -- vim.keymap.set({ "n", "i" }, "<C-ä>", "<cmd>split<CR>");
 
 -- window movement --
