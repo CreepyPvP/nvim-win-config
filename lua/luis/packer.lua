@@ -10,8 +10,6 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
-	use({ 'rose-pine/neovim', as = 'rose-pine' })
-
 	use( 'nvim-treesitter/nvim-treesitter' , {run = ':TSUpdate'})
 	use( 'nvim-treesitter/playground' )
 	use( 'theprimeagen/harpoon' )
@@ -46,6 +44,7 @@ return require('packer').startup(function(use)
 	},
     use { 'numToStr/Comment.nvim' },
     use { "catppuccin/nvim", as = "catppuccin" },
+    use { "sainnhe/gruvbox-material" },
 
     use { 'andweeb/presence.nvim' },
 }

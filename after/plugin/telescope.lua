@@ -1,7 +1,8 @@
 require('telescope').setup{ 
   defaults = { 
     file_ignore_patterns = { 
-      ".png" 
+      ".png" ,
+      "external" 
     }
   }
 }

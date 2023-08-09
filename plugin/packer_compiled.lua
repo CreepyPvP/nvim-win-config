@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\git-worktree.nvim",
     url = "https://github.com/theprimeagen/git-worktree.nvim"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
@@ -169,11 +174,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\presence.nvim",
     url = "https://github.com/andweeb/presence.nvim"
-  },
-  ["rose-pine"] = {
-    loaded = true,
-    path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
-    url = "https://github.com/rose-pine/neovim"
   },
   ["telescope.nvim"] = {
     loaded = true,
