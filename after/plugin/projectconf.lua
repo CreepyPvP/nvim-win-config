@@ -43,3 +43,4 @@ local autoCommands = {
 
 nvim_create_augroups(autoCommands)
 
+vim.cmd("vsplit");

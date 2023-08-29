@@ -30,6 +30,9 @@ vim.keymap.set({ "n", "i", "t" }, "<A-n>", "<cmd>tabprevious<CR>")
 vim.keymap.set({ "n", "i", "t" }, "<C-n>", "<cmd>tabnew<CR>")
 vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>tabnew<CR><cmd>term<CR>a")
 
+vim.keymap.set({ "n", "i" }, "<A-f>", ":e ")
+vim.keymap.set({ "n", "i" }, "<S-A-f>", "<C-w><C-w>:e ")
+
 -- term --
 vim.keymap.set("t", "<C-d>", "<ESC>");
 
