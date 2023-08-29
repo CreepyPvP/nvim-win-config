@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
     use( 'nvim-treesitter/nvim-treesitter-textobjects' )
 	use( 'nvim-treesitter/playground' )
 	use( 'theprimeagen/harpoon' )
-    use( 'theprimeagen/git-worktree.nvim')
+    -- use( 'theprimeagen/git-worktree.nvim')
 	use( 'mbbill/undotree' )
 	use( 'tpope/vim-fugitive' )
     use( 'sbdchd/neoformat' )
@@ -44,7 +44,7 @@ return require('packer').startup(function(use)
 		{'L3MON4D3/LuaSnip'},     -- Required
 	},
     use { 'numToStr/Comment.nvim' },
-    use { "catppuccin/nvim", as = "catppuccin" },
+    -- use { "catppuccin/nvim", as = "catppuccin" },
     use { "sainnhe/gruvbox-material" },
 
     use { 'andweeb/presence.nvim' },
