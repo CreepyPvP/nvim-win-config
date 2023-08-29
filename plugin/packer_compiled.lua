@@ -84,20 +84,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\inter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  catppuccin = {
-    loaded = true,
-    path = "C:\\Users\\inter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
-    url = "https://github.com/catppuccin/nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\inter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
-  },
-  ["git-worktree.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\inter\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\git-worktree.nvim",
-    url = "https://github.com/theprimeagen/git-worktree.nvim"
   },
   ["gruvbox-material"] = {
     loaded = true,
