@@ -45,7 +45,7 @@ return require('packer').startup(function(use)
 	},
     use { 'numToStr/Comment.nvim' },
     -- use { "catppuccin/nvim", as = "catppuccin" },
-    use { "sainnhe/gruvbox-material" },
+    use { "AlexvZyl/nordic.nvim" },
 
     use { 'andweeb/presence.nvim' },
 }
