@@ -15,12 +15,11 @@ return require('packer').startup(function(use)
 	use( 'nvim-treesitter/playground' )
 	use( 'mbbill/undotree' )
 	use( 'tpope/vim-fugitive' )
-    use( 'sbdchd/neoformat' )
 
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-    }
+    -- use {
+    --     'nvim-lualine/lualine.nvim',
+    --     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    -- }
 
 	use {
 		'VonHeikemen/lsp-zero.nvim',
@@ -40,16 +39,13 @@ return require('packer').startup(function(use)
 		{'hrsh7th/nvim-cmp'},     -- Required
 		{'hrsh7th/cmp-nvim-lsp'}, -- Required
 		{'L3MON4D3/LuaSnip'},     -- Required
+        {'rafamadriz/friendly-snippets'},
 	},
     use { 'numToStr/Comment.nvim' },
-    use { 'AlexvZyl/nordic.nvim' },
-    use { 'andweeb/presence.nvim' },
+    use { 'ericbn/vim-solarized' },
 
-    use { 
-        'ggandor/leap.nvim',
-        requires = {
-            'tpope/vim-repeat'
-        }
-    }
+    use { 'tpope/vim-tbone' },
+  
+
 }
 end)
