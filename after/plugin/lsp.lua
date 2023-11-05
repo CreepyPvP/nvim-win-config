@@ -63,4 +63,4 @@ vim.diagnostic.config({
 	virtual_text = true
 })
 
-lsp.setup()
+-- lsp.setup()
