@@ -18,8 +18,19 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 cmp_mappings['<Tab>'] = nil
 cmp_mappings['<S-Tab>'] = nil
 
+local luasnip = require 'luasnip'
+luasnip.config.setup {}
 lsp.setup_nvim_cmp({
-	mapping = cmp_mappings
+	mapping = cmp_mappings,
+    snippet = {
+        expand = function(args)
+            luasnip.lsp_expand(args.body)
+        end
+    },
+    sourecs = {
+        { name = 'nvim_lsp' },
+        { name = 'luasnip' },
+    }
 })
 
 lsp.set_preferences({
@@ -47,8 +58,9 @@ lsp.on_attach(function(client, bufnr)
 	vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
-lsp.setup()
 
 vim.diagnostic.config({
 	virtual_text = true
 })
+
+-- lsp.setup()

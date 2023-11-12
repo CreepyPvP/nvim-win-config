@@ -1,3 +1,3 @@
-require('lualine').setup {
-    options = { theme = 'nordic' }
-}
+-- require('lualine').setup {
+--     options = { theme = 'solarized' }
+-- }

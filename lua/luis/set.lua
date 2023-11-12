@@ -1,4 +1,5 @@
 vim.opt.relativenumber = true
+vim.opt.number = true
   
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
@@ -29,3 +30,5 @@ vim.opt.wrap = true
 vim.opt.splitright = true
 vim.opt.splitright = true
 vim.opt.splitkeep = "topline"
+
+vim.opt.colorcolumn = "80" 
