@@ -33,7 +33,7 @@ vim.keymap.set("n", "<A-f>", ":e ")
 vim.keymap.set("n", "<S-A-f>", "<C-w><C-w>:e ")
 
 -- term --
-vim.keymap.set("t", "<C-c>", "<C-\\><C-n>");
+vim.keymap.set("t", "<escape>", "<C-\\><C-n>");
 
 -- splits --
 vim.keymap.set("n", "<leader>v", "<cmd>vsplit<CR>");
