@@ -28,7 +28,7 @@ vim.opt.updatetime = 50
 
 vim.opt.wrap = true
 vim.opt.splitright = true
-vim.opt.splitright = true
+vim.opt.splitbelow = true
 vim.opt.splitkeep = "topline"
 
 vim.opt.colorcolumn = "80" 
