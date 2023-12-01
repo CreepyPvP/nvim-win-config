@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
 	},
     use { 'numToStr/Comment.nvim' },
     use { 'ericbn/vim-solarized' },
+    use { 'CreepyPvP/green.vim' },      -- yes, its me
 
     use { 'tpope/vim-tbone' },
   

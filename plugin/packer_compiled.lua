@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/luis/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["green.vim"] = {
+    loaded = true,
+    path = "/home/luis/.local/share/nvim/site/pack/packer/start/green.vim",
+    url = "https://github.com/CreepyPvP/green.vim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/luis/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
