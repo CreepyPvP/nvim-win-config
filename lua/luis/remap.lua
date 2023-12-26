@@ -30,6 +30,7 @@ vim.keymap.set("n", "<leader>t", "<cmd>13split +term<CR>a")
 vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>tabnew<CR><cmd>term<CR>a")
 
 vim.keymap.set("n", "<A-f>", ":e ")
+vim.keymap.set("n", "<A-b>", ":bu ")
 vim.keymap.set("n", "gt", ":ta ")
 vim.keymap.set("n", "<S-A-f>", "<C-w><C-w>:e ")
 
@@ -64,3 +65,4 @@ vim.keymap.set({ "i" }, "<C-h>", "<C-o>h")
 vim.keymap.set({ "i" }, "<C-j>", "<C-o>j")
 vim.keymap.set({ "i" }, "<C-k>", "<C-o>k")
 vim.keymap.set({ "i" }, "<C-l>", "<C-o>l")
+
