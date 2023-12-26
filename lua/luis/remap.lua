@@ -42,10 +42,11 @@ vim.keymap.set("n", "<leader>h", "<cmd>split<CR>")
 -- vim.keymap.set({ "n", "i" }, "<C-ä>", "<cmd>split<CR>")
 
 -- window movement --
-vim.keymap.set({ "n", "i", "t" }, "<A-h>", "<C-w>h")
-vim.keymap.set({ "n", "i", "t" }, "<A-j>", "<C-w>j")
-vim.keymap.set({ "n", "i", "t" }, "<A-k>", "<C-w>k")
-vim.keymap.set({ "n", "i", "t" }, "<A-l>", "<C-w>l")
+-- vim.keymap.set({ "n", "i", "t" }, "<A-h>", "<C-w>h")
+-- vim.keymap.set({ "n", "i", "t" }, "<A-j>", "<C-w>j")
+-- vim.keymap.set({ "n", "i", "t" }, "<A-k>", "<C-w>k")
+-- vim.keymap.set({ "n", "i", "t" }, "<A-l>", "<C-w>l")
+vim.keymap.set({ "n", "i", "t" }, "<A-w>", "<C-w><C-w>")
 
 -- vim.keymap.set("n", "<cr>", "ciw");
 vim.keymap.set("v", "y", "ygv<esc>")
