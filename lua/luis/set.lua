@@ -1,5 +1,5 @@
-vim.opt.relativenumber = true
-vim.opt.number = true
+-- vim.opt.relativenumber = true
+-- vim.opt.number = true
   
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
@@ -35,3 +35,5 @@ vim.opt.splitkeep = "topline"
 
 vim.g.netrw_banner = 0 -- Hide banner
 vim.opt.scl = "no"
+
+vim.opt.cindent = true;
