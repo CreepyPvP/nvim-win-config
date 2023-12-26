@@ -9,6 +9,9 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
+    
+    -- use( 'junegunn/fzf.vim' )
+    -- use( 'junegunn/fzf' )
 
 	use( 'nvim-treesitter/nvim-treesitter' , {run = ':TSUpdate'})
     use( 'nvim-treesitter/nvim-treesitter-textobjects' )
