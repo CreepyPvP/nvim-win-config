@@ -31,6 +31,7 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 vim.opt.splitkeep = "topline"
 
-vim.opt.colorcolumn = "80" 
+-- vim.opt.colorcolumn = "80" 
 
 vim.g.netrw_banner = 0 -- Hide banner
+vim.opt.scl = "no"
