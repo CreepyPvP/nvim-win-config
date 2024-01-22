@@ -45,10 +45,14 @@ return require('packer').startup(function(use)
         {'rafamadriz/friendly-snippets'},
 	},
     use { 'numToStr/Comment.nvim' },
-    use { 'ericbn/vim-solarized' },
     use { 'CreaturePhil/vim-handmade-hero' },
+    use { 'CreepyPvP/green.vim' },
 
-    use { 'tpope/vim-tbone' },
+    use { 'gelguy/wilder.nvim', 
+        config = function()
+
+        end,
+    }
   
 }
 end)

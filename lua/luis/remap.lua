@@ -17,21 +17,23 @@ vim.keymap.set("n", "K", "<nop>")
 -- vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
-vim.keymap.set({ "n", "i" }, "<C-w>", "<cmd>q<CR>");
-vim.keymap.set("t", "<C-w>", "<cmd>bd!<CR>");
+-- vim.keymap.set({ "n", "i" }, "<C-w>", "<cmd>q<CR>");
+-- vim.keymap.set("t", "<C-w>", "<cmd>bd!<CR>");
 
 -- tabs --
-vim.keymap.set({ "n", "i", "t" }, "<A-p>", "<cmd>tabnext<CR>")
-vim.keymap.set({ "n", "i", "t" }, "<A-n>", "<cmd>tabprevious<CR>")
-vim.keymap.set({ "n", "t" }, "<C-n>", "<cmd>tabnew<CR><cmd>vsplit<CR>")
+-- vim.keymap.set({ "n", "i", "t" }, "<A-p>", "<cmd>tabnext<CR>")
+-- vim.keymap.set({ "n", "i", "t" }, "<A-n>", "<cmd>tabprevious<CR>")
+-- vim.keymap.set({ "n", "t" }, "<C-n>", "<cmd>tabnew<CR><cmd>vsplit<CR>")
 
 -- vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>vsplit +term<CR>a")
-vim.keymap.set("n", "<leader>t", "<cmd>13split +term<CR>a")
-vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>tabnew<CR><cmd>term<CR>a")
+-- vim.keymap.set("n", "<leader>t", "<cmd>13split +term<CR>a")
+-- vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>tabnew<CR><cmd>term<CR>a")
+vim.keymap.set({ "n", "i", "t" }, "<A-t>", "<cmd>term<CR>")
 
 vim.keymap.set("n", "<A-f>", ":e ")
 vim.keymap.set("n", "<A-b>", ":bu ")
-vim.keymap.set("n", "gt", ":ta ")
+vim.keymap.set("t", "<A-b>", "<C-\\><C-n>:bu ")
+vim.keymap.set("n", "<A-d>", ":ta ")
 vim.keymap.set("n", "<S-A-f>", "<C-w><C-w>:e ")
 
 -- term --
@@ -47,14 +49,16 @@ vim.keymap.set("n", "<leader>h", "<cmd>split<CR>")
 -- vim.keymap.set({ "n", "i", "t" }, "<A-j>", "<C-w>j")
 -- vim.keymap.set({ "n", "i", "t" }, "<A-k>", "<C-w>k")
 -- vim.keymap.set({ "n", "i", "t" }, "<A-l>", "<C-w>l")
-vim.keymap.set({ "n", "i", "t" }, "<A-w>", "<C-w><C-w>")
+vim.keymap.set({ "n" }, "<A-w>", "<C-w><C-w>")
+vim.keymap.set({ "i" }, "<A-w>", "<C-o><C-w><C-w>")
+vim.keymap.set({ "t" }, "<A-w>", "<C-\\><C-n><C-w><C-w>")
 
 -- vim.keymap.set("n", "<cr>", "ciw");
 vim.keymap.set("v", "y", "ygv<esc>")
 
 -- better text navigation --
-vim.keymap.set({ "n", "v",}, "<A-j>", "}")
-vim.keymap.set({ "n", "v" }, "<A-k>", "{")
+vim.keymap.set({ "n", "v",}, "<A-j>", "<cmd>keepj normal }<cr>")
+vim.keymap.set({ "n", "v" }, "<A-k>", "<cmd>keepj normal {<cr>")
 vim.keymap.set({ "n", "v" }, "<A-h>", "B")
 vim.keymap.set({ "n", "v" }, "<A-l>", "W")
 vim.keymap.set({ "i" }, "<A-h>", "<C-o>B")
@@ -66,3 +70,6 @@ vim.keymap.set({ "i" }, "<C-j>", "<C-o>j")
 vim.keymap.set({ "i" }, "<C-k>", "<C-o>k")
 vim.keymap.set({ "i" }, "<C-l>", "<C-o>l")
 
+vim.keymap.set("n", "<C-W>f", "mSgFmD`S<C-W>W`D<C-W>W")
+vim.keymap.set("n", "<C-W>d", "mS[<C-I>mD`S<C-W>W`D<C-W>W")
+vim.keymap.set("n", "gd", "[<C-I>")
