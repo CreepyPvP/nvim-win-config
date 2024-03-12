@@ -72,4 +72,7 @@ vim.keymap.set({ "i" }, "<C-l>", "<C-o>l")
 
 vim.keymap.set("n", "<C-W>f", "mSgFmD`S<C-W>W`D<C-W>W")
 vim.keymap.set("n", "<C-W>d", "mS[<C-I>mD`S<C-W>W`D<C-W>W")
-vim.keymap.set("n", "gd", "[<C-I>")
+-- vim.keymap.set("n", "gd", "[<C-I>")
+
+vim.keymap.set("n", "<A-n>", "<cmd>cnext<CR>");
+vim.keymap.set("n", "<A-p>", "<cmd>cprev<CR>");
