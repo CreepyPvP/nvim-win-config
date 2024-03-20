@@ -47,6 +47,7 @@ return require('packer').startup(function(use)
     use { 'numToStr/Comment.nvim' },
     use { 'CreaturePhil/vim-handmade-hero' },
     use { 'CreepyPvP/green.vim' },
+    use { 'mrtazz/molokai.vim' },
 
     use { 'gelguy/wilder.nvim', 
         config = function()

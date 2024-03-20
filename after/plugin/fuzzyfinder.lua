@@ -1,10 +1,16 @@
 require('telescope').setup{ 
-  defaults = { 
-    file_ignore_patterns = { 
-      ".png" ,
-      "external" 
+    defaults = { 
+        file_ignore_patterns = { 
+            ".png" ,
+            "external",
+            ".asset",
+            ".meta",
+            ".preset",
+            ".prefab",
+            ".bank",
+            ".wav",
+        }
     }
-  }
 }
 
 local builtin = require("telescope.builtin")
