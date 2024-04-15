@@ -114,10 +114,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["molokai.vim"] = {
+  neovim = {
     loaded = true,
-    path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\molokai.vim",
-    url = "https://github.com/mrtazz/molokai.vim"
+    path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neovim",
+    url = "https://github.com/rose-pine/neovim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -173,20 +173,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-handmade-hero",
     url = "https://github.com/CreaturePhil/vim-handmade-hero"
-  },
-  ["wilder.nvim"] = {
-    config = { "\27LJ\2\n\v\0\0\1\0\0\0\1K\0\1\0\0" },
-    loaded = true,
-    path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\wilder.nvim",
-    url = "https://github.com/gelguy/wilder.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: wilder.nvim
-time([[Config for wilder.nvim]], true)
-try_loadstring("\27LJ\2\n\v\0\0\1\0\0\0\1K\0\1\0\0", "config", "wilder.nvim")
-time([[Config for wilder.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

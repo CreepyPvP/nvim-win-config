@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
 	use( 'nvim-treesitter/nvim-treesitter' , {run = ':TSUpdate'})
     use( 'nvim-treesitter/nvim-treesitter-textobjects' )
 	use( 'nvim-treesitter/playground' )
+
 	use( 'mbbill/undotree' )
 	use( 'tpope/vim-fugitive' )
 
@@ -45,15 +46,10 @@ return require('packer').startup(function(use)
         {'rafamadriz/friendly-snippets'},
 	},
     use { 'numToStr/Comment.nvim' },
-    use { 'CreaturePhil/vim-handmade-hero' },
+
     use { 'CreepyPvP/green.vim' },
-    use { 'mrtazz/molokai.vim' },
+    use { 'rose-pine/neovim' },
+    use { 'CreaturePhil/vim-handmade-hero' },
 
-    use { 'gelguy/wilder.nvim', 
-        config = function()
-
-        end,
-    }
-  
 }
 end)
