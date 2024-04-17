@@ -6,8 +6,6 @@ vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
-vim.opt.smartindent = true
-
 vim.opt.swapfile = false
 vim.opt.backup = false
 -- vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
@@ -15,6 +13,8 @@ vim.opt.undofile = true
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
 
 vim.opt.termguicolors = true
 
@@ -34,6 +34,7 @@ vim.opt.splitkeep = "topline"
 vim.g.netrw_banner = 0 -- Hide banner
 vim.opt.scl = "no"
 
+vim.opt.smartindent = true
 vim.opt.cindent = true;
 
 vim.opt.wrap = false;
