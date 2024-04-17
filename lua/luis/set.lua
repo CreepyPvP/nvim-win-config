@@ -40,4 +40,4 @@ vim.opt.cindent = true;
 vim.opt.wrap = false;
 vim.opt.sidescroll = 5;
 
-vim.opt.guicursor = ""
+vim.opt.guicursor = "n-c-v:block-nCursor"
