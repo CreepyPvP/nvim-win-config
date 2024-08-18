@@ -3,7 +3,7 @@ require('telescope').setup{
         file_ignore_patterns = { 
             ".png" ,
             "external",
-            ".asset",
+            -- ".asset",
             ".meta",
             ".preset",
             ".prefab",
