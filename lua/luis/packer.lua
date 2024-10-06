@@ -22,6 +22,7 @@ return require('packer').startup(function(use)
 
     use ( 'numToStr/Comment.nvim' )
     use ( 'CreepyPvP/green.vim' )
+    use ( 'zekzekus/menguless')
 
     use ( 'vim-scripts/argtextobj.vim' )
 

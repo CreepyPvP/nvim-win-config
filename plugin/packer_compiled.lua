@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\green.vim",
     url = "https://github.com/CreepyPvP/green.vim"
   },
+  menguless = {
+    loaded = true,
+    path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\menguless",
+    url = "https://github.com/zekzekus/menguless"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "C:\\Users\\Luis\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
