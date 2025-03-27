@@ -76,3 +76,6 @@ vim.keymap.set("n", "<C-W>d", "mS[<C-I>mD`S<C-W>W`D<C-W>W")
 
 vim.keymap.set("n", "<A-n>", "<cmd>cnext<CR>");
 vim.keymap.set("n", "<A-p>", "<cmd>cprev<CR>");
+
+vim.keymap.set("n", "<A-c>", "<cmd>make<CR>");
+vim.keymap.set("n", "<", "<cmd>tabnew term://run.bat<CR>");
