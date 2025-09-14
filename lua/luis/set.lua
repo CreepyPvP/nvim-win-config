@@ -43,3 +43,9 @@ vim.opt.wrap = false;
 vim.opt.sidescroll = 5;
 
 vim.opt.guicursor = "n-c-v:block-nCursor"
+
+
+-- vim.api.nvim_create_autocmd({ "FocusGained", "BufEnter" }, {
+--     pattern = "*",
+--     command = "!echo test"
+-- })
