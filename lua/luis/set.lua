@@ -36,8 +36,8 @@ vim.opt.splitkeep = "topline"
 vim.g.netrw_banner = 0 -- Hide banner
 vim.opt.scl = "no"
 
-vim.opt.smartindent = true
-vim.opt.cindent = true;
+-- vim.opt.cindent = true
+-- vim.opt.cinoptions= ":1,l1,g0,(0,W4"
 
 vim.opt.wrap = false;
 vim.opt.sidescroll = 5;
